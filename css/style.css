@@ -133,8 +133,8 @@ body.dark-theme{
 
 /* ============== BASE ================ */
 *{
-    box-sizing: border-box;
-    padding: 0;
+    box-sizing: border-box; 
+    padding:0;
     margin: 0;
 }
 
@@ -351,9 +351,9 @@ img{
 .home{
     height: 70vh;
     align-content: space-between;
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-0-25);
     padding-bottom: 0;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-0-25);
 }
 
 .home__container{
@@ -491,7 +491,9 @@ img{
 
 .home__scroll-mouse{
     font-size: var(--big-font-size);
-    margin-top: var(--mb-3);
+    margin-top: var(--mb-0-25);
+    /* box-sizing: var(--mb-1); */
+    /* margin-bottom: var(--mb-0-25); */
 }
 
 .home__scroll-name{
@@ -503,19 +505,23 @@ img{
 
 .home__scroll-arrow{
     font-size: var(--h3-font-size);
+    
 }
 
 /* ===================== ABOUT ================== */
 .about{
+    margin-top: 1rem;
     padding-top: 1rem;
-    margin-top: 7rem;
+    margin-top: 1rem;
+    justify-self: center;
 }
 .about__img{
-    width: 200px;
+    width: 400px;
     border-radius: .5rem;
     margin-bottom: var(--mb-2);
     display: inline-flex;
     justify-self: center;
+    margin-top: var(--mb-0-25);
 }
 
 .about__description{
@@ -815,12 +821,12 @@ img{
 	max-width: 800px;
 	margin: auto;
 	background: #fff;
-	box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+	box-shadow: 0px 14px 80px rgba(122, 124, 170, 0.2);
 	padding: 25px;
 	border-radius: 25px;
 	height: 400px;
 	transition: all 0.3s;
-  background-color: var(--background-body-color);
+  background-color:var(--background-body-color);
   border-style: var(--border-style);
   border-color: var(--border-color); 
 }
